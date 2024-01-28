@@ -36,3 +36,8 @@ h1 {
 footer p {
     font-weight: 700;
 }
+
+.icons {
+    font-size: 32px;
+    color: pink;
+}
