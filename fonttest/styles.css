@@ -6,27 +6,33 @@
     font-style: normal;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'freightround_probook';
     src: url('fonts/freightroundprobook-webfont.woff2') format('woff2'),
          url('fonts/freightroundprobook-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: 'freightround_prolight';
     src: url('fonts/freightroundprolight-webfont.woff2') format('woff2'),
          url('fonts/freightroundprolight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 body {
     max-width: 600px;
     margin: auto;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
 }
 
 h1 {
-    font-family: "freightround_probold", Arial, Sans-serif;
+    font-family: "freightround_probold", Arial, sans-serif;
+}
+
+footer p {
+    font-weight: 700;
 }
