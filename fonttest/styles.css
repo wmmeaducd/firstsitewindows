@@ -22,11 +22,23 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(fonts/RobotoSerif.woff2) format('woff2');
+}
+
 body {
     max-width: 600px;
     margin: auto;
-    font-family: 'freightround_prolight';
-    font-weight: 400;
+}
+
+p {
+    font-family: 'Roboto Serif';
+    font-weight: 512;
+    font-variation-settings: "wdth" 56.51, "opsz" 33.53, "GRAD" 0.67;
 }
 
 h1 {
